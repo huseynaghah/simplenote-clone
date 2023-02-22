@@ -15,6 +15,7 @@ export const PageRoutes = () => {
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/help" element={<Help />} />
                     <Route path="/blog" element={<Blog />} />
+					
 				</Route>
 			</Routes>
 		</>

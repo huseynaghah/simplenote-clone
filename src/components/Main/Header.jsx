@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import styles from "../components/Header.module.css"
-import logo from "../assets/logo.png"
+import styles from "./Header.module.css"
+import logo from "../../assets/logo.png"
 import { Dropdown, Space, ConfigProvider } from 'antd';
-import ic_menu from "../assets/ic_menu.png"
-import ic_cross from "../assets/ic_cross.png"
+import ic_menu from "../../assets/ic_menu.png"
+import ic_cross from "../../assets/ic_cross.png"
 
 
 

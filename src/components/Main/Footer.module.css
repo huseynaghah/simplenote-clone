@@ -1,0 +1,39 @@
+.foot {
+    display: flex;
+    justify-content: space-between;
+    margin: 72px auto 0;
+    max-width: 960px;
+    padding: 0;
+    width: 85%;
+    font-size: 14px;
+    align-items: center;
+    padding-bottom: 30px ;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    float: center;
+    
+}
+
+.right{
+    display: block;
+    float: none;
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .foot{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+

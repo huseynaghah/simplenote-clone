@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.55em;
+    margin-bottom: 0;
+}
+
+.p{
+    font-size: 18px;
+    line-height: 1.6em;
+    margin: 1.6em 0;
+}
+
+.downcontainer{
+    max-width: 600px !important;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    width: 48%;
+}
+
+.right {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    width: 48%;
+}
+
+.button{
+    width: 100%;
+    margin-bottom: 16px !important;
+    margin-right: 0 !important;
+    box-sizing: border-box;
+    background: #323436;
+    border: 1px solid #646970;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 100%;
+    padding: 8px 10px 8px 20px;
+    text-align: left !important;
+    width: 288px;
+    height: 56px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.badges{
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+}
+
+.image{
+    width: 25px;
+    height: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+    .downcontainer {
+        flex-direction: column;
+        gap: 20px;
+        max-width: 600px !important;
+    }
+
+    .left {
+        width: 80% !important;
+        margin: auto;
+
+    }
+
+    .right{
+        width: 80% !important; 
+        margin: auto;
+    }
+
+    .button{
+        width: 100% !important;
+    }
+
+}
+
+.other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    color: #618df2;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    
+}
+

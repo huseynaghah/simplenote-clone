@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.55em;
+    margin-bottom: 0;
+}
+
+.p{
+    font-size: 18px;
+    line-height: 1.6em;
+    margin: 1.6em 0;
+}
+
+.button{
+    border-radius: 4px;
+    background-color: #3361cc;
+    border: 0px solid;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 18px;
+    margin: 0;
+}
+
+.button:hover{
+    background-color: #11358a;
+}
+
+.butcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39px;
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+}
