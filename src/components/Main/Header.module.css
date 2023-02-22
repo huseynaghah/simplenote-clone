@@ -90,14 +90,14 @@
   }
 
 .triggerclosed{
-    background-image: url("../assets/ic_menu.png");
+    background-image: url("../../assets/ic_menu.png");
     background-size: 25px 25px;
     width: 25px;
     height: 25px;
 }
 
 .triggeropened{
-    background-image: url("../assets/ic_cross.png");
+    background-image: url("../../assets/ic_cross.png");
     background-size: 25px 25px;
     width: 25px;
     height: 25px;
