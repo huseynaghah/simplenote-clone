@@ -1,13 +1,21 @@
 :root {
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  color-scheme: light dark;
+  color-scheme:  dark light;
+  /* background-color: #1f2123; */
+
+
 
 } 
+
 body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: #1f2123; */
+
 }
+
+
 
 .ant-dropdown-menu-light{
   background-color: #1f2123 !important;
@@ -21,9 +29,6 @@ body{
   background-color: #4c4c4c !important;
 }
 
-body.dark-theme a{
-  color: white;
-}
 
 
 /* .ant-dropdown-menu .ant-dropdown-menu-root .ant-dropdown-menu-vertical .ant-dropdown-menu-light {

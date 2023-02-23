@@ -19,7 +19,9 @@ function App() {
     color: "#fff"
   }
 
-
+  if (isDark){
+  document.body.style.backgroundColor="#1f2123"}
+  else{document.body.style.backgroundColor="white"}
 
   return (
     <div style={isDark ? darkTheme : lightTheme}><PageRoutes/></div>
