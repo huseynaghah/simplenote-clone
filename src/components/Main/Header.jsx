@@ -4,6 +4,7 @@ import logo from "../../assets/logo.png"
 import { Dropdown, Space, ConfigProvider } from 'antd';
 import ic_menu from "../../assets/ic_menu.png"
 import ic_cross from "../../assets/ic_cross.png"
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,23 +15,23 @@ export const Header = () => {
 
   const items = [
     {
-      label: <a href="/contact">Contact Us</a>,
+      label: <Link href="/contact">Contact Us</Link>,
       key: '0',
     },
     {
-      label: <a href="/help">Help</a>,
+      label: <Link to="/help">Help</Link>,
       key: '1',
     },
     {
-      label: <a href="/blog">Blog</a>,
+      label: <Link to="/blog">Blog</Link>,
       key: '2',
     },
     {
-      label: <a href="https://app-simplenote-clone.netlify.app/">Log In</a>,
+      label: <Link to="https://app-simplenote-clone.netlify.app/">Log In</Link>,
       key: '4',
     },
     {
-      label: <a href="https://app-simplenote-clone.netlify.app/signup">Sign Up</a>,
+      label: <Link to="https://app-simplenote-clone.netlify.app/signup">Sign Up</Link>,
       key: '5',
     }
   ];
@@ -57,16 +58,16 @@ export const Header = () => {
         </div>
         <div className={styles.list}>
           <div className={styles.li}>
-            <a className={styles.a} href="/contact" style={isDark ? darkTheme : lightTheme}>Contact Us</a></div>
+            <Link className={styles.a} to="/contact" style={isDark ? darkTheme : lightTheme}>Contact Us</Link></div>
           <div className={styles.li}>
-            <a className={styles.a} href="/help" style={isDark ? darkTheme : lightTheme}>Help</a></div>
+            <Link className={styles.a} to="/help" style={isDark ? darkTheme : lightTheme}>Help</Link></div>
           <div className={styles.li}>
-            <a className={styles.a} href="/blog" style={isDark ? darkTheme : lightTheme}>Blog</a></div>
+            <Link className={styles.a} to="/blog" style={isDark ? darkTheme : lightTheme}>Blog</Link></div>
           <div className={styles.seperator}></div>
           <div className={styles.li}>
-            <a className={styles.a} href="https://app-simplenote-clone.netlify.app/" style={isDark ? darkTheme : lightTheme}>Log In</a></div>
+            <Link className={styles.a} to="https://app-simplenote-clone.netlify.app/" style={isDark ? darkTheme : lightTheme}>Log In</Link></div>
           <div className={styles.li}>
-            <a className={styles.a} href="https://app-simplenote-clone.netlify.app/signup" style={isDark ? darkTheme : lightTheme}> <div className={styles.lilast}>Sign Up</div></a></div>
+            <Link className={styles.a} to="https://app-simplenote-clone.netlify.app/signup" style={isDark ? darkTheme : lightTheme}> <div className={styles.lilast}>Sign Up</div></Link></div>
         </div>
         <div className={styles.toggle}>
         <Dropdown
