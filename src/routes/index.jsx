@@ -13,8 +13,8 @@ export const PageRoutes = () => {
 				<Route path="/" element={<PageLayout />}>
 					<Route index element={<Home />} />
 					<Route path="/contact" element={<Contact />} />
-					<Route path="/help" element={<Help />} />
-                    <Route path="/blog" element={<Blog />} />
+					<Route path="/help" element={<Contact />} />
+                    <Route path="/blog" element={<Contact />} />
 					
 				</Route>
 			</Routes>

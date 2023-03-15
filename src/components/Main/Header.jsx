@@ -64,9 +64,9 @@ export const Header = () => {
             <a className={styles.a} href="/blog" style={isDark ? darkTheme : lightTheme}>Blog</a></div>
           <div className={styles.seperator}></div>
           <div className={styles.li}>
-            <a className={styles.a} href="#" style={isDark ? darkTheme : lightTheme}>Log In</a></div>
+            <a className={styles.a} href="https://app-simplenote-clone.netlify.app/" style={isDark ? darkTheme : lightTheme}>Log In</a></div>
           <div className={styles.li}>
-            <a className={styles.a} href="#" style={isDark ? darkTheme : lightTheme}> <div className={styles.lilast}>Sign Up</div></a></div>
+            <a className={styles.a} href="https://app-simplenote-clone.netlify.app/signup" style={isDark ? darkTheme : lightTheme}> <div className={styles.lilast}>Sign Up</div></a></div>
         </div>
         <div className={styles.toggle}>
         <Dropdown
