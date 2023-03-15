@@ -26,11 +26,11 @@ export const Header = () => {
       key: '2',
     },
     {
-      label: <a href="#">Log In</a>,
+      label: <a href="https://app-simplenote-clone.netlify.app/">Log In</a>,
       key: '4',
     },
     {
-      label: <a href="#">Sign Up</a>,
+      label: <a href="https://app-simplenote-clone.netlify.app/signup">Sign Up</a>,
       key: '5',
     }
   ];
